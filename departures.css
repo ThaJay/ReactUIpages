@@ -1,0 +1,220 @@
+/* line 5, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../../css/departures.scss */
+html, body {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* line 8, ../../css/departures.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 18, ../../css/departures.scss */
+.departures .departures-header {
+  position: relative;
+  background: #000D66;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+/* line 28, ../../css/departures.scss */
+.departures .departures-header .back-button {
+  position: absolute;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  width: 50px;
+  line-height: 48px;
+}
+/* line 44, ../../css/departures.scss */
+.departures .search-stations .input {
+  width: 100%;
+  padding: 10px;
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid #DDD;
+  margin: 0;
+  font-size: 18px;
+  color: #777;
+}
+/* line 55, ../../css/departures.scss */
+.departures .search-stations .loading,
+.departures .search-stations .failed,
+.departures .search-stations .no-results {
+  text-align: center;
+  padding: 20px;
+}
+/* line 62, ../../css/departures.scss */
+.departures .search-stations .failed,
+.departures .search-stations .no-results {
+  color: #F00;
+}
+/* line 67, ../../css/departures.scss */
+.departures .search-stations .search-results {
+  height: calc(100vh - 110px);
+  overflow: auto;
+}
+/* line 72, ../../css/departures.scss */
+.departures .search-stations .search-results .result .link {
+  padding: 20px 10px;
+  display: block;
+  font-size: 20px;
+  color: #000D66;
+  text-decoration: none;
+}
+/* line 80, ../../css/departures.scss */
+.departures .search-stations .search-results .result:nth-child(2n+1) .link {
+  background: #F2F2F7;
+}
+/* line 92, ../../css/departures.scss */
+.departures .station .station-header {
+  background: #FFCC33;
+  font-size: 20px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+/* line 102, ../../css/departures.scss */
+.departures .station .departures .loading,
+.departures .station .departures .failed,
+.departures .station .departures .no-results {
+  text-align: center;
+  padding: 20px;
+}
+/* line 109, ../../css/departures.scss */
+.departures .station .departures .failed,
+.departures .station .departures .no-results {
+  color: #F00;
+}
+/* line 116, ../../css/departures.scss */
+.departures .station .departures .departures-table {
+  width: 100%;
+}
+/* line 122, ../../css/departures.scss */
+.departures .station .departures .departures-table thead th {
+  text-align: left;
+  height: 40px;
+  background: none repeat scroll 0% 0% #000D66;
+  color: #FFF;
+  font-weight: normal;
+}
+/* line 136, ../../css/departures.scss */
+.departures .station .departures .departures-table tbody tr td, .departures .station .departures .departures-table tbody tr th, .departures .station .departures .departures-table thead tr td, .departures .station .departures .departures-table thead tr th {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 141, ../../css/departures.scss */
+.departures .station .departures .departures-table tbody tr td:first-child, .departures .station .departures .departures-table tbody tr td:last-child, .departures .station .departures .departures-table tbody tr th:first-child, .departures .station .departures .departures-table tbody tr th:last-child, .departures .station .departures .departures-table thead tr td:first-child, .departures .station .departures .departures-table thead tr td:last-child, .departures .station .departures .departures-table thead tr th:first-child, .departures .station .departures .departures-table thead tr th:last-child {
+  width: 65px;
+}
+/* line 147, ../../css/departures.scss */
+.departures .station .departures .departures-table tbody tr td, .departures .station .departures .departures-table thead tr td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+/* line 153, ../../css/departures.scss */
+.departures .station .departures .departures-table tbody tr td .delay, .departures .station .departures .departures-table thead tr td .delay {
+  padding-top: 8px;
+  font-size: 12px;
+  color: #F00;
+}
+/* line 159, ../../css/departures.scss */
+.departures .station .departures .departures-table tbody tr td .train-type, .departures .station .departures .departures-table tbody tr td .route-info, .departures .station .departures .departures-table thead tr td .train-type, .departures .station .departures .departures-table thead tr td .route-info {
+  font-size: 12px;
+  margin-top: 8px;
+}
+/* line 164, ../../css/departures.scss */
+.departures .station .departures .departures-table tbody tr td .remarks, .departures .station .departures .departures-table thead tr td .remarks {
+  font-size: 12px;
+  color: #F00;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 172, ../../css/departures.scss */
+.departures .station .departures .departures-table tbody tr td .remarks li, .departures .station .departures .departures-table thead tr td .remarks li {
+  margin-top: 8px;
+}
+/* line 178, ../../css/departures.scss */
+.departures .station .departures .departures-table tbody tr td .platform-changed, .departures .station .departures .departures-table thead tr td .platform-changed {
+  color: #F00;
+  font-weight: bold;
+}
+/* line 185, ../../css/departures.scss */
+.departures .station .departures .departures-table tbody tr:nth-child(2n) td, .departures .station .departures .departures-table thead tr:nth-child(2n) td {
+  background: #F2F2F7;
+}
+/* line 195, ../../css/departures.scss */
+.departures .station .departures .departures-table-body-container {
+  height: calc(100vh - 135px);
+  overflow: auto;
+}
